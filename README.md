@@ -1,6 +1,6 @@
 # Sales Performance Dashboard – Power BI
 
-## 📌 Project Overview
+## Project Overview
 
 This project is an interactive **Sales Performance Dashboard** created using **Microsoft Power BI**.
 
@@ -10,7 +10,7 @@ The project demonstrates the use of **Power Query, DAX, Data Modeling, and Power
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 The main objectives of this project are:
 
@@ -25,7 +25,7 @@ The main objectives of this project are:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Microsoft Power BI**
 - **Power Query**
@@ -36,7 +36,7 @@ The main objectives of this project are:
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The project uses a **Superstore Sales Dataset** containing information about:
 
@@ -61,7 +61,7 @@ The project uses a **Superstore Sales Dataset** containing information about:
 
 ---
 
-## 🧹 Data Preparation
+##  Data Preparation
 
 The raw dataset was cleaned and transformed using **Power Query**.
 
@@ -77,7 +77,10 @@ The main data-cleaning steps included:
 
 ---
 
-## 📊 Dashboard Features
+##  Dashboard Features
+
+<img width="1130" height="643" alt="Screenshot 2026-09-21 011717" src="https://github.com/user-attachments/assets/89b210a5-4bf3-44e5-bde0-85ea50269e5b" />
+
 
 ### 1. Sales Analysis
 
@@ -117,7 +120,7 @@ Users can interact with the dashboard using filters/slicers such as:
 
 ---
 
-## 🧮 DAX
+##  DAX
 
 DAX measures were created to calculate important business KPIs.
 
@@ -125,3 +128,21 @@ Example:
 
 ```DAX
 Total Sales = SUM(Sales[Sales])
+
+## Project Structure
+
+Sales-Performance-Dashboard/
+│
+├── README.md
+│
+├── PowerBI/
+│   └── Sales_Performance_Dashboard.pbix
+│
+├── Dataset/
+│   └── Superstore_Sales.xlsx
+│
+├── Images/
+│   └── dashboard.png
+│
+└── Documentation/
+    └── Project_Report.pdf
